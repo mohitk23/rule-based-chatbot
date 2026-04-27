@@ -46,7 +46,6 @@ while True:
 
     userInput = input("\nAsk to ChatBot: ").strip().lower()
     print(userInput)
-    # userInput = userInput.lower()
     reply = getResponseOfBot(userInput)
     time.sleep(1)
     print("Bot reply: ", reply)
